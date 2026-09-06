@@ -1,0 +1,88 @@
+
+body {
+  margin: 0;
+  background-color: cornflowerblue;
+}
+
+header {
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+h2{
+    margin: 0;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+.hero{
+    background-image: url("https://revistamercado.do/wp-content/uploads/2026/06/Toy-Story-5-recauda-US53.8-millones-y-es-el-estreno-mas-visto-de-2026-en-Latinoamerica-copy.webp") ;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1{
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero p{
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+.hero button{
+    border-radius: 50px;
+}
+
+.hero button:hover{
+    transition: all linear 1s;
+    width: 70px;
+    height: 30px;
+}
+
+.card-container{
+    display: grid;
+	grid-template-columns: 300px 300px 300px;
+}
+
+.card{
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    margin-left: 20px;
+    text-align: center;
+    box-shadow: 2px 2px black;
+}
+
+.card:hover{
+     transform: translateY(-10px);
+}
+
+.contato form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+input:focus{
+    outline-color: brown;
+}
+.contato button{
+    background-color: brown;
+    color: white;
+
+}
+
